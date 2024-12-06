@@ -13,7 +13,7 @@ from westpa.core.states import InitialState
 
 log = logging.getLogger(__name__)
 
-class CustomDriver(WEDriver):
+class MABLDriver(WEDriver):
    
     def _split_by_data(self, bin, to_split, split_into):
 
